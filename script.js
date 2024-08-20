@@ -97,7 +97,7 @@ function showscore() {
     questionname.innerHTML += `You Scored ${score} out of ${questions.length}`
     next.style.display = "flex"
     next.innerHTML = "Play Again"
-
+    location.reload(true)
 }
 
 function handlenext() {
