@@ -94,7 +94,7 @@ function selectanswer(e) {
 
 function showscore() {
     reset()
-    questionname.innerHTML += `You Scored ${score} out of ${questions.length} <br>Double Click on Play Again to Play Again`
+    questionname.innerHTML += `You Scored ${score} out of ${questions.length}`
     next.style.display = "flex"
     next.innerHTML = "Play Again"
       next.addEventListener("click",()=>{
