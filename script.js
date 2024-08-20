@@ -97,7 +97,11 @@ function showscore() {
     questionname.innerHTML += `You Scored ${score} out of ${questions.length}`
     next.style.display = "flex"
     next.innerHTML = "Play Again"
-    location.reload(true)
+        setTimeout(() => {
+        next.addEventListener("click",()=>{
+            location.reload(true)
+        })
+    }, 1000);
 }
 
 function handlenext() {
