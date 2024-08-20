@@ -11,16 +11,6 @@ const questions = [
             ]
     },
     {
-        question: "Is Prerana Beautiful ?",
-        answers:
-            [
-                { text: "Absolutely", correct: true },
-                { text: "100%", correct: true },
-                { text: "Ofcourse", correct: true },
-                { text: "Definately", correct: true }
-            ]
-    },
-    {
         question: "Which of the following is not a javascript framework",
         answers:
             [
@@ -82,9 +72,6 @@ function selectanswer(e) {
     if (iscorrect) {
         selectbtn.classList.add("correct")
         score++
-        if (currentquestionindex == 1) {
-            alert("Indeed She is Very Beautifull and the author of this quiz LOVES 🫶❤️her very much")
-        }
         if (currentquestionindex == 3) {
             alert("THALA FOR A REASON 🗿")
         }
