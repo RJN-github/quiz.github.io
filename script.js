@@ -73,7 +73,7 @@ function selectanswer(e) {
         selectbtn.classList.add("correct")
         score++
  
-        if (currentquestionindex == 3) {
+        if (currentquestionindex == 2) {
             alert("THALA FOR A REASON 🗿")
         }
     }
