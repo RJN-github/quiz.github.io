@@ -21,16 +21,6 @@ const questions = [
             ]
     },
     {
-        question: "Is Prerana Beautifull ? ",
-        answers:
-            [
-                { text: "Absolutely", correct: true },
-                { text: "Ofcourse", correct: true },
-                { text: "Definately", correct: true },
-                { text: "Ye bhi koi puchne ki baat hui ?", correct: true }
-            ]
-    },
-    {
         question: "What is 0111 in decimal",
         answers:
             [
@@ -82,9 +72,7 @@ function selectanswer(e) {
     if (iscorrect) {
         selectbtn.classList.add("correct")
         score++
-        if (currentquestionindex==2) {
-            alert("Yes Indeed She Is Very Beautifull and the author of this  quiz LOVES 🫶❤️ Her sooooo mucccch !")
-        }
+ 
         if (currentquestionindex == 3) {
             alert("THALA FOR A REASON 🗿")
         }
