@@ -101,7 +101,7 @@ function showscore() {
         next.addEventListener("click",()=>{
             location.reload(true)
         })
-    }, 1000);
+    }, 20000);
 }
 
 function handlenext() {
